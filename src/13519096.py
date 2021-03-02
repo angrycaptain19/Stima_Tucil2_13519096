@@ -71,21 +71,21 @@ def outputkuliah(hasil): #input list yang sudah tersort, output menuliskan hasil
         if i > 7: #Kalau lebih dari 8 semester dipotong
             break
         #Merubah angka ke angka romawi untuk output
-        if i+1 == 1:
+        if i == 0:
             roman = "I"
-        elif i+1 == 2:
+        elif i == 1:
             roman = "II"
-        elif i+1 == 3:
+        elif i == 2:
             roman = "III"
-        elif i+1 == 4:
+        elif i == 3:
             roman = "IV"
-        elif i+1 == 5:
+        elif i == 4:
             roman = "V"
-        elif i+1 == 6:
+        elif i == 5:
             roman = "VI"
-        elif i+1 == 7:
+        elif i == 6:
             roman = "VII"
-        elif i+1 == 8:
+        elif i == 7:
             roman = "VIII"
 
         str = "Semester " + roman + ": "
